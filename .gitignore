@@ -1,0 +1,12 @@
+# datasets
+pd_sparse/*/*
+xml_repo/*/*
+*.zip
+
+# c++
+fast_split
+fast_remap
+fast_libsvm2ft
+*.o
+*.a
+.idea
