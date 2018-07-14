@@ -67,7 +67,7 @@ int main(int argc, char* argv[]) {
         if(i == 0) continue;
 
         auto lineLabels = split(line.substr(0,i));
-        string lineFeatures = removeFeaturesValues(line.substr(i));
+        string lineFeatures = line.substr(i);
 
         for(auto labelString : lineLabels){
             newFile << "__label__" << labelString << " ";
